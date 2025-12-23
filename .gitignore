@@ -1,0 +1,36 @@
+# Ignore common build output directories
+/build/
+/dist/
+/out/
+/target/
+
+# Ignore common compiled/object files and logs
+*.o
+*.obj
+*.class
+*.dll
+*.exe
+*.log
+*.tmp
+
+# Ignore specific IDE/OS generated files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Exclude a specific build file if needed, e.g., if it needs to be tracked
+# !/build/important_file.txt
+/adxl345/Debug
+/gpio_exti/Debug
+/i2c_master_Rx_interrupt/Debug
+/i2c_master_transmit_DMA/Debug
+/master_slave_i2c_intraboard/Debug
+/usart_tx_polling/Debug
+usart_tx_polling/STM32F303RETX_FLASH.ld
+adxl345/STM32F303RETX_FLASH.ld
+gpio_exti/STM32F303RETX_FLASH.ld
+gpio_input_bare_metal/STM32F303RETX_FLASH.ld
+i2c_master_Rx_interrupt/STM32F303RETX_FLASH.ld
+i2c_master_transmit_DMA/STM32F303RETX_FLASH.ld
+master_slave_i2c_intraboard/STM32F303RETX_FLASH.ld
