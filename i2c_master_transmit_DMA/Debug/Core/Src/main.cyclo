@@ -1,0 +1,17 @@
+../Drivers/CMSIS/Include/core_cm4.h:1688:22:__NVIC_EnableIRQ	2
+../Drivers/CMSIS/Include/core_cm4.h:1816:22:__NVIC_SetPriority	2
+../Core/Src/main.c:137:6:I2C2_EV_IRQHandler	5
+../Core/Src/main.c:168:6:DMA1_Channel4_IRQHandler	2
+../Core/Src/main.c:178:6:DMA1_Channel5_IRQHandler	2
+../Core/Src/main.c:193:5:main	1
+../Core/Src/main.c:276:6:GPIO_Init	1
+../Core/Src/main.c:323:6:I2C_Master_Init	2
+../Core/Src/main.c:345:6:I2C_Slave_Init	2
+../Core/Src/main.c:371:6:DMA1_I2C1_TX_Init	1
+../Core/Src/main.c:385:6:DMA1_I2C1_RX_Init	1
+../Core/Src/main.c:403:6:DMA1_I2C2_TX_Init	1
+../Core/Src/main.c:420:6:DMA1_I2C2_RX_Init	1
+../Core/Src/main.c:438:6:I2C1_Master_TX_DMA	4
+../Core/Src/main.c:469:5:I2C1_Master_RX_DMA	5
+../Core/Src/main.c:538:6:SystemClock_Config	3
+../Core/Src/main.c:577:6:Error_Handler	1

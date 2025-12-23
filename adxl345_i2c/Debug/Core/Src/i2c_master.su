@@ -1,0 +1,4 @@
+../Core/Src/i2c_master.c:10:6:GPIO_Init	4	static
+../Core/Src/i2c_master.c:47:6:I2C_Master_Init	24	static
+../Core/Src/i2c_master.c:74:14:i2c_master_write	48	static
+../Core/Src/i2c_master.c:165:14:i2c_master_read	48	static
